@@ -1,0 +1,41 @@
+
+You've just received this project, which is a 1 file app, but it's not
+even dockerized.
+
+
+To prepare for CI/CD, and be ready to fix bugs:
+
+- Dockerize this project
+- Write a docker-compose to be able to run it
+
+- The 2 endpoints that have to run are =/=  and =`/db_test`.
+  The rest is still WIP.
+
+- If there are side tasks you could take that have advantages for
+  other cases you can mention them
+
+- What are the next immediate things you'd add?
+
+- Any mid term features you would add CI/CD wise to make your/devs life easier?
+
+* python
+
+#+begin_src shell
+  flask --app ./src/main.py run
+  browse to localhost:5555/
+#+end_src
+
+* db
+It runs with postgres.
+creds inline KTHXBYE
+
+
+
+
+
+* clojure :noexport:
+# - download neil and build it
+* deploy :noexport:
+* develop :noexport:
+* migrate :noexport:
+* backups :noexport:
